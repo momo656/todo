@@ -1,0 +1,75 @@
+body{
+      background-color: rgb(20, 20, 59);
+
+}
+.conteinar{
+      display: grid;
+      
+      grid-template-areas: 
+      "nav"
+      "cont"
+      "foot"
+      ;
+      padding: 0 10% ;
+    
+    
+    }
+    .nav{
+      grid-area: nav;
+      margin-bottom: 2%;
+
+      
+      
+    
+    
+    }
+   
+    
+    
+    .content{
+     
+    }
+    .main{
+          text-align: center;
+          margin-bottom: 4%;
+      
+     
+    }
+    header{
+      font-family: 'Anton', sans-serif;
+      font-size: 5vw;
+      text-align: center;
+      color: cornsilk;
+    
+
+    }
+    input{
+
+      width: 40%;
+      font-size: 1vw;
+      padding: 8px 15px;
+      margin: 0 29%;
+      border-radius: 8px;
+    }
+    .in button{
+      font-size: 1vw;
+      font-weight: 700;
+      margin: 1.5% 30%;
+      background-color: rgb(4, 150, 155);
+      border-radius: 8px;
+      border: none;
+      color:white
+      padding: 16px;
+    }
+ 
+    .footer{
+      grid-area: foot;
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      text-align: center;
+      font-size: 1.5vw;
+      padding: 14px 16px;
+      color: rgba(236, 230, 230, 0.651);
+      margin: 15px 500px;
+    
+    }
