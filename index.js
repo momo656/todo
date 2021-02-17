@@ -9,7 +9,7 @@ const addTodo = () => {
     todoInput.value = "";
     showTodos();
   } else {
-    alert("todo must not be em pty");
+    alert("todo must not be empty");
   }
 };
 const clearAll = () => {
