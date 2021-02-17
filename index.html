@@ -1,50 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8"/>
     <title>to do list</title>
-    <link rel="stylesheet" href="file.css" />
+    <link rel="stylesheet" href="file.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Ballet&family=Dancing+Script:wght@500;600&family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Ballet&family=Dancing+Script:wght@500;600&family=Indie+Flower&family=Lobster&family=Merriweather+Sans:wght@700&display=swap" rel="stylesheet">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Ballet&family=Dancing+Script:wght@500;600&family=Indie+Flower&family=Kaushan+Script&family=Lobster&family=Merriweather+Sans:wght@700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Anton&family=Ballet&family=Dancing+Script:wght@500&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Anton&family=Ballet&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Work+Sans:ital,wght@0,100;0,300;1,900&display=swap" rel="stylesheet">    
-    </head>
- <body> 
-  
-    <div class=conteinar>
-          <div class="nav">
-                
-          </div>
-          <div class="content">
-             <div class="main">
-                      <header>ToDos</header>
-                     
-                </div>
-                <div class="sr">
-                      <input type="text" title="creat new to-do"placeholder="creat new to-do...">
-                      
-                </div>
-                <div class="in">
-                  <button>add</button>
-                  <button>clear All</button>
-                </div>
-             </div>   
-          </div>
-         <div class="footer">
-                <div>todos</div>
-                <div>finished</div>
-                <div>remainig</div>
-          </div>
-          
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Ballet&family=Dancing+Script:wght@500;600&family=Indie+Flower&family=Lobster&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Ballet&family=Dancing+Script:wght@500;600&family=Indie+Flower&family=Lobster&family=Merriweather+Sans:wght@700&display=swap"
+          rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Ballet&family=Dancing+Script:wght@500;600&family=Indie+Flower&family=Kaushan+Script&family=Lobster&family=Merriweather+Sans:wght@700&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Ballet&family=Dancing+Script:wght@500&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Ballet&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Work+Sans:ital,wght@0,100;0,300;1,900&display=swap"
+          rel="stylesheet">
 
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
 
-    
+<div class=conteinar>
+    <div class="nav">
+
     </div>
+    <div class="content">
+        <div class="main">
+            <header>ToDos</header>
 
+        </div>
+        <div class="sr">
+            <input type="text" id="todoInput" title="creat new to-do" placeholder="creat new to-do...">
 
-
+        </div>
+        <div class="in">
+            <button onclick="addTodo()">add</button>
+            <button onclick="clearAll()">clear All</button>
+        </div>
+    </div>
+</div>
+<div class="footer" id="todoList"></div>
 </body>
 </html>
